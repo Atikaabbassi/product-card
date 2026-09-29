@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +8,7 @@
 .parent{
     height: 500px;
     width: 800px;
-     background-color: rgb(60, 59, 59);
+     background-color: rgb(20, 19, 19);
      margin: auto;
      margin-top: 5vh;
      position: relative;
@@ -41,7 +42,7 @@
 
 .iconbox {
     display: inline-block;
-    padding-top: 15px;
+    padding-top: 24px;
 }
 
 .iconbox h3 {
@@ -86,8 +87,6 @@
     margin: 0;
 }
 
-
-
 .boderparent {
     text-align: center;
 }
@@ -98,5 +97,96 @@
     border-bottom: 2px solid rgb(189, 189, 189);
     margin-left: 14px;
 }
+.parasbox{
+    margin-top: 20%;
+
+}
+.laptophead{
+font-size: 18px;
+color: rgb(142, 142, 142);
+margin-left: 20px;
+}
+.parasbox h1{
+    margin-top: 20px;
+    color: white;
+    margin-left: 18px;
+}
+
+.blockspan{
+    display: inline-block;
+   margin-left: 26px;
+    
+}
 
 
+.head04{
+    display: inline-block;
+    color: white;
+    margin-right: 28px;
+}
+
+.head{
+    margin-top: 20px;
+}
+.through{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.rambox > h5{
+    display: inline-block;
+    color: white;
+    margin-top: 25PX;
+    margin-left: 30px;
+}
+.littleorangebox{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orangered;
+    margin-left: 45px;
+    margin-bottom: -5px;
+    color: white;
+     text-align: center;
+    line-height: 19px;
+    font-size: 15px;
+
+}
+
+.head06{
+    display: inline-block;
+    color: rgb(135, 135, 135);
+    margin-left: 12px;
+    font-size: 12px;
+   
+
+}
+.dark{
+    background-color: rgb(55, 55, 55);
+    margin-left: 29px;
+}
+.white{
+    background-color: aliceblue;
+}
+.blue{
+    background-color: blue;
+    margin-left: 29px;
+}
+
+.twoiconbox{
+    display: inline-block;
+    margin-top: 25%;
+    color: white;
+    margin-left: 20%;
+}
+.bag{
+    display: inline-block;
+
+
+}
+
+.buyblock{
+ display: inline-block;
+
+}
