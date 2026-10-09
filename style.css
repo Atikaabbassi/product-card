@@ -209,6 +209,7 @@ i:hover{
 }
 .orangebox{
     border-radius: 0 0 50% 50%;
+    
 }
 }
 @media (max-width: 810px) {
@@ -226,6 +227,10 @@ i:hover{
     }
     .iconbox i{
         margin-left: 7px;
+    }
+    .orangebox img{
+        margin-bottom: 15px;
+        margin-left: 10px;
     }
     
 }
