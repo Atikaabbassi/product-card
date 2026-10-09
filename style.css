@@ -6,7 +6,7 @@
     
 }
 .parent{
-    height: 500px;
+    min-height: 500px;
     width: 800px;
      background-color: rgb(20, 19, 19);
      margin: auto;
@@ -44,6 +44,7 @@
     display: inline-block;
     padding-top: 24px;
 }
+
 
 .iconbox h3 {
     display: inline-block;
@@ -153,6 +154,9 @@ margin-left: 20px;
     font-size: 15px;
 
 }
+.littleorangebox:hover{
+    border: 2px solid orangered;
+}
 
 .head06{
     display: inline-block;
@@ -180,6 +184,12 @@ margin-left: 20px;
     color: white;
     margin-left: 20%;
 }
+.twoiconbox:hover{
+    color: orangered;
+}
+i:hover{
+ color: orangered;
+}
 .bag{
     display: inline-block;
 
@@ -190,3 +200,54 @@ margin-left: 20px;
  display: inline-block;
 
 }
+
+/*=============================== MEDIA QURIES ================================ */
+
+@media (max-width:810px){
+   .parasbox{
+    width: 90%;
+   }
+.orangebox img {
+        width: 80%;
+        
+       
+    }
+.orangebox,.grybox{
+    position: static;
+    width: 100%;
+    display: block;
+}
+.orangebox{
+    border-radius: 0 0 50% 50%;
+}
+}
+@media (max-width: 810px) {
+    .parent{
+        width: 95%;
+    }
+    
+}
+
+@media (max-width: 416px){
+    .iconbox{
+    
+        padding-left: 5px;
+        margin-left: 10px;
+    }
+    .iconbox i{
+        margin-left: 7px;
+    }
+    
+}
+@media (max-width: 373px){
+
+}
+@media (max-width: 416px) {
+ .orangebox img{
+    max-width: 240px;
+    
+ }
+
+}
+
+
