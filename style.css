@@ -88,16 +88,6 @@
     margin: 0;
 }
 
-.boderparent {
-    text-align: center;
-}
-
-.border-p {
-    width: 55px;
-    display: inline-block;
-    border-bottom: 2px solid rgb(189, 189, 189);
-    margin-left: 14px;
-}
 .parasbox{
     margin-top: 20%;
 
