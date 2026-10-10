@@ -6,43 +6,45 @@
     
 }
 .parent{
-    min-height: 500px;
+    min-height: 430px;
     width: 800px;
-     background-color: rgb(20, 19, 19);
-     margin: auto;
-     margin-top: 5vh;
-     position: relative;
+    background-color: rgb(20, 19, 19);
+    margin: auto;
+    margin-top: 8vh;
+    position: relative;
+    
 }
+
 .orangebox{
-    width: 45%;
+    width: 43%;
     height: 100%;
     background-color: orangered;
-     border-radius: 0 55% 55% 0;
-     display: inline-block;
-     position: absolute;
-    top: 0; 
+    border-radius: 0 50% 50% 0;
+    display: inline-block;
+    position: absolute;
+    top: 0;
 }
+
 .orangebox img{
-    width: 400px;
+    width: 360px;
     margin-left: -10px;
     position: relative;
     right: 0;
-    margin-bottom: -45px;
-    
+    margin-top: 24px;
+   
 }
 
 .grybox{
     width: 54%;
     height: 100%;
-     display: inline-block;
-     position: absolute;
-     right: 0;
-
+    display: inline-block;
+    position: absolute;
+    right: 0;
 }
 
 .iconbox {
     display: inline-block;
-    padding-top: 24px;
+    padding-top: 20px;
 }
 
 
@@ -89,7 +91,7 @@
 }
 
 .parasbox{
-    margin-top: 20%;
+    margin-top: 15%;
 
 }
 .laptophead{
@@ -170,7 +172,7 @@ margin-left: 20px;
 
 .twoiconbox{
     display: inline-block;
-    margin-top: 25%;
+    margin-top: 13%;
     color: white;
     margin-left: 20%;
 }
@@ -196,6 +198,10 @@ i:hover{
 @media (max-width:810px){
    .parasbox{
     width: 90%;
+    padding-left: 20px;
+   }
+   .iconbox{
+      padding-left: 10px;
    }
 .orangebox img {
         width: 80%;
@@ -211,9 +217,7 @@ i:hover{
     border-radius: 0 0 50% 50%;
     
 }
-}
-@media (max-width: 810px) {
-    .parent{
+.parent{
         width: 95%;
     }
     
@@ -232,17 +236,12 @@ i:hover{
         margin-bottom: 15px;
         margin-left: 10px;
     }
-    
-}
-@media (max-width: 373px){
-
-}
-@media (max-width: 416px) {
- .orangebox img{
+     .orangebox img{
     max-width: 240px;
     
  }
-
 }
+
+
 
 
